@@ -4,21 +4,25 @@
     <main>
       <TheBanner />
     </main>
+    <BaseFooter />
   </div>
 </template>
 
 <script>
 import BaseHeader from "./components/BaseHeader.vue";
+import BaseFooter from "./components/BaseFooter.vue";
 import TheBanner from "./components/TheBanner.vue";
 
 export default {
   name: "App",
   components: {
     BaseHeader,
+    BaseFooter,
     TheBanner,
   },
 };
 </script>
+, BaseFooter
 
 <style>
 #app {
