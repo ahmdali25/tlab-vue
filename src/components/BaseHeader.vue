@@ -35,6 +35,7 @@ export default {
 
 .nav-list {
   list-style: none;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   display: flex;
   flex-direction: row;
@@ -46,6 +47,7 @@ export default {
 }
 
 .btn-nav {
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   padding: 12px 24px;
   height: 48px;

@@ -50,7 +50,7 @@
       <div class="footer-list-wrapper">
         <p class="footer-list-title">Kontak</p>
         <ul class="footer-list">
-          <li class="list list-bold">
+          <li class="list list-company list-bold">
             PT. Teknologi Kode Indonesia contact@tlab.co.id
           </li>
           <li class="list list-custom">
@@ -112,11 +112,13 @@ footer {
 
 .footer-title {
   line-height: 150%;
+  font-family: "Quicksand", sans-serif;
 }
 
 .footer-copyright {
   font-weight: 400;
   font-size: 14px;
+  font-family: "Nunito", sans-serif;
 }
 
 .footer-icons-wrapper {
@@ -140,6 +142,7 @@ footer {
   margin-left: 40px;
   font-weight: 700;
   font-size: 14px;
+  font-family: "Quicksand", sans-serif;
   color: var(--text-primary);
   opacity: 0.5;
 }
@@ -150,6 +153,9 @@ footer {
 
 .footer-list .list {
   line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
 }
 
 .footer-list .list .list-wrapper {
@@ -157,6 +163,10 @@ footer {
   flex-direction: row;
   align-content: center;
   gap: 10px;
+}
+
+.footer-list .list-company {
+  font-family: "Quicksand", sans-serif !important;
 }
 
 .footer-list .list-bold {

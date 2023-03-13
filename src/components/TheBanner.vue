@@ -41,6 +41,7 @@ export default {
   text-align: center;
   font-weight: 700;
   font-size: 48px;
+  font-family: "Quicksand", sans-serif;
   line-height: 150%;
   color: #5a5a5a;
   width: 74.5%;
@@ -57,6 +58,7 @@ export default {
   text-align: center;
   font-weight: 400;
   font-size: 24px;
+  font-family: "Nunito", sans-serif;
   line-height: 150%;
   color: #5a5a5a;
   width: 70%;
