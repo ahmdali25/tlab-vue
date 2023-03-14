@@ -24,7 +24,11 @@
               kesan.id - Kedaulatan Santri dan Kepribadian Muslim
             </p>
           </div>
-          <img src="../assets/images/project-kesan.png" alt="Project Kesan" />
+          <img
+            class="image"
+            src="../assets/images/project-kesan.png"
+            alt="Project Kesan"
+          />
         </div>
       </div>
       <div class="project-image-wrapper">
@@ -37,6 +41,7 @@
             </p>
           </div>
           <img
+            class="image"
             src="../assets/images/project-anterin.png"
             alt="Project Anterin"
           />
@@ -49,7 +54,11 @@
               Smart Parking
             </p>
           </div>
-          <img src="../assets/images/project-juru.png" alt="Project Juru" />
+          <img
+            class="image"
+            src="../assets/images/project-juru.png"
+            alt="Project Juru"
+          />
         </div>
       </div>
     </div>
@@ -74,7 +83,7 @@ export default {
 .project-wrapper {
   display: grid;
   grid-template-columns: 60% 40%;
-  gap: 35px;
+  gap: 10px;
 }
 
 .project-title-wrapper {
@@ -107,7 +116,7 @@ export default {
   align-items: center;
   gap: 10px;
   cursor: pointer;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 
 .project-navigation {
@@ -140,12 +149,13 @@ export default {
   left: 0;
   padding: 24px;
   border-radius: 0px 8px;
-  width: 58%;
+  width: 55%;
   height: 38%;
 }
 
 .project-image-card-medium {
-  height: 34%;
+  width: 56%;
+  height: 30%;
 }
 
 .project-image-card-title {
@@ -167,6 +177,10 @@ export default {
 }
 
 .project-image-card-detail-custom {
-  width: 70%;
+  width: 72%;
+}
+
+.image {
+  width: 95%;
 }
 </style>
