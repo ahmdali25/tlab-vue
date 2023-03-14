@@ -97,6 +97,7 @@ footer {
   position: relative;
   margin-left: -105px;
   margin-right: -105px;
+  margin-bottom: -10px;
   background-color: #f7fcff;
   color: var(--text-primary);
 }
@@ -105,7 +106,7 @@ footer {
   display: grid;
   grid-template-columns: 350px 220px 270px 280px;
   padding-top: 80px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -181,7 +182,7 @@ footer {
   position: absolute;
   width: 325px;
   height: 305px;
-  top: 59.79%;
+  top: 53%;
   bottom: -31.78%;
   background: #5a5a5a;
   opacity: 0.1;
