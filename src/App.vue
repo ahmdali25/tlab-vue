@@ -3,6 +3,7 @@
     <BaseHeader />
     <main>
       <TheBanner />
+      <TheProject />
     </main>
     <BaseFooter />
   </div>
@@ -12,6 +13,7 @@
 import BaseHeader from "./components/BaseHeader.vue";
 import BaseFooter from "./components/BaseFooter.vue";
 import TheBanner from "./components/TheBanner.vue";
+import TheProject from "./components/TheProject.vue";
 
 export default {
   name: "App",
@@ -19,10 +21,10 @@ export default {
     BaseHeader,
     BaseFooter,
     TheBanner,
+    TheProject,
   },
 };
 </script>
-, BaseFooter
 
 <style>
 #app {
